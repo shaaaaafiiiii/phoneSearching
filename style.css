@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.row {
+    width: 95%;
+    margin: auto;
+}
+.card {
+    border: 3px solid rgb(105, 8, 143);
+    border-radius: 10px;
+}
+.card img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.card button {
+    border: none;
+    border-radius: 20px;
+    background-color: rosybrown;
+    padding: 10px 30px;
+}
+#err {
+    display: none;
+}
